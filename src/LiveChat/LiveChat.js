@@ -4,7 +4,7 @@ const LiveChat = () => {
   useEffect(() => {
     const script = document.createElement('script');
 
-    script.src = "//code.tidio.co/jxvjenuk3z6hehow72rpubugl3tgvmpu.js";
+    script.src = "//code.tidio.co/qe7xt2fk18spvplhflnqevhgofmctmvf.js";
     script.async = true;
 
     document.body.appendChild(script);
