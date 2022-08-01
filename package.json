@@ -3,13 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@brainhubeu/react-carousel": "^2.0.4",
+    "@chatra/chatra": "^1.0.3",
+    "@mui/icons-material": "^5.8.4",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.2.0",
+    "bootstrap-icons": "^1.9.1",
+    "nuka-carousel": "^5.2.0",
+    "rc-dropdown": "^4.0.1",
+    "rc-menu": "^9.6.0",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.4.0",
+    "react-bootstrap-icons": "^1.8.4",
     "react-dom": "^18.2.0",
+    "react-elastic-carousel": "^0.11.5",
     "react-scripts": "5.0.1",
+    "react-whirligig": "^6.6.15",
+    "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
