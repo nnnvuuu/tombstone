@@ -5,6 +5,8 @@ import Header from './Header/Header';
 import HomePage from './HomePgae/HomePage';
 import Carousels from './HomePgae/Carousels/Carousels';
 import FlatMarkers from './Gallery/FlatMarkers/FlatMarkets';
+import AboutUs from './CompanyOverview/AboutUs/AboutUs';
+import ProductAndService from './CompanyOverview/ProductAndService/ProductAndService';
 import {
   BrowserRouter,
   Routes,
@@ -20,6 +22,15 @@ function App() {
           </Routes>
           <Routes>
             <Route path="/FlatMarkers" element={<FlatMarkers/>} /> 
+          </Routes>
+
+            {/* Company Overview */}
+          <Routes>
+            <Route path="/About_us" element={<AboutUs/>} /> 
+          </Routes>
+
+          <Routes>
+            <Route path="/ProductAndService" element={<ProductAndService/>} /> 
           </Routes>
        </BrowserRouter>
     </div>
