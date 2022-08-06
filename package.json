@@ -6,6 +6,7 @@
     "@brainhubeu/react-carousel": "^2.0.4",
     "@chatra/chatra": "^1.0.3",
     "@mui/icons-material": "^5.8.4",
+    "@somedaycode/react-carousel": "^0.1.6",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
@@ -13,18 +14,31 @@
     "bootstrap-icons": "^1.9.1",
     "cors": "^2.8.5",
     "express": "^4.18.1",
+    "node-sass": "^7.0.1",
     "nuka-carousel": "^5.2.0",
     "path": "^0.12.7",
+    "pro-gallery": "^4.1.26",
     "rc-dropdown": "^4.0.1",
     "rc-menu": "^9.6.0",
     "react": "^18.2.0",
-    "react-bootstrap": "^2.4.0",
+    "react-bootstrap": "^2.5.0",
     "react-bootstrap-icons": "^1.8.4",
     "react-dom": "^18.2.0",
     "react-elastic-carousel": "^0.11.5",
+    "react-images": "^1.2.0-beta.7",
+    "react-leaf-carousel": "^3.0.0",
+    "react-lightbox-component": "^1.2.1",
+    "react-multilevel-dropdown": "^3.0.3",
+    "react-photo-gallery": "^8.0.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-responsive-navbar": "^1.0.11",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
     "react-whirligig": "^6.6.15",
+    "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.5",
+    "swiper": "^8.3.2",
     "web-vitals": "^2.1.4"
   },
   "engines": {
@@ -32,6 +46,7 @@
     "npm": "6.14.14"
   },
   "scripts": {
+    "run": "react-scripts start",
     "start": "node --max_old_space_size=2560 node_modules/.bin/react-scripts start",
     "build": "node --max_old_space_size=2560 node_modules/.bin/react-scripts build",
     "test": "react-scripts test",
@@ -56,5 +71,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.54.3"
   }
 }
