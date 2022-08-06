@@ -116,7 +116,11 @@ button:active {
     transform: scale(0.99);
 } */
 
-
+.nav-links {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
 
  @media screen and (max-width: 960px){
 

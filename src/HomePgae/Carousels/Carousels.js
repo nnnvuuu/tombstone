@@ -44,6 +44,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import Slider from "react-slick";
 import InfiniteCarousel from 'react-leaf-carousel';
+import cat from './cat.jpg';
 
 //https://codespots.com/library/item/2666
 const Carousels = () => {
@@ -85,121 +86,121 @@ const Carousels = () => {
     <div>
       <img
         alt=''
-        src='http://vu.com.pk/DPEI/wp-content/uploads/2022/06/d-p244.jpg'
+        src={cat}
       />
     </div>
     <div>
       <img
         alt=''
-        src='http://vu.com.pk/DPEI/wp-content/uploads/2022/06/d-p244.jpg'
+        src={cat}
       />
     </div>
     <div>
       <img
         alt=''
-        src='http://vu.com.pk/DPEI/wp-content/uploads/2022/06/d-p244.jpg'
+        src={cat}
       />
     </div>
     <div>
       <img
         alt=''
-        src='http://vu.com.pk/DPEI/wp-content/uploads/2022/06/d-p244.jpg'
+        src={cat}
       />
     </div>
     <div>
       <img
         alt=''
-        src='http://vu.com.pk/DPEI/wp-content/uploads/2022/06/d-p244.jpg'
+        src={cat}
       />
     </div>
     <div>
       <img
         alt=''
-        src='http://vu.com.pk/DPEI/wp-content/uploads/2022/06/d-p244.jpg'
+        src={cat}
       />
     </div>
     <div>
       <img
         alt=''
-        src='http://vu.com.pk/DPEI/wp-content/uploads/2022/06/d-p244.jpg'
+        src={cat}
       />
     </div>
     <div>
       <img
         alt=''
-        src='http://vu.com.pk/DPEI/wp-content/uploads/2022/06/d-p244.jpg'
+        src={cat}
       />
     </div>
     <div>
       <img
         alt=''
-        src='http://vu.com.pk/DPEI/wp-content/uploads/2022/06/d-p244.jpg'
+        src={cat}
       />
     </div>
     <div>
       <img
         alt=''
-        src='http://vu.com.pk/DPEI/wp-content/uploads/2022/06/d-p244.jpg'
+        src={cat}
       />
     </div>
     <div>
       <img
         alt=''
-        src='http://vu.com.pk/DPEI/wp-content/uploads/2022/06/d-p244.jpg'
+        src={cat}
       />
     </div>
     <div>
       <img
         alt=''
-        src='http://vu.com.pk/DPEI/wp-content/uploads/2022/06/d-p244.jpg'
+        src={cat}
       />
     </div>
     <div>
       <img
         alt=''
-        src='http://vu.com.pk/DPEI/wp-content/uploads/2022/06/d-p244.jpg'
+        src={cat}
       />
     </div>
     <div>
       <img
         alt=''
-        src='http://vu.com.pk/DPEI/wp-content/uploads/2022/06/d-p244.jpg'
+        src={cat}
       />
     </div>
     <div>
       <img
         alt=''
-        src='http://vu.com.pk/DPEI/wp-content/uploads/2022/06/d-p244.jpg'
+        src={cat}
       />
     </div>
     <div>
       <img
         alt=''
-        src='http://vu.com.pk/DPEI/wp-content/uploads/2022/06/d-p244.jpg'
+        src={cat}
       />
     </div>
     <div>
       <img
         alt=''
-        src='http://vu.com.pk/DPEI/wp-content/uploads/2022/06/d-p244.jpg'
+        src={cat}
       />
     </div>
     <div>
       <img
         alt=''
-        src='http://vu.com.pk/DPEI/wp-content/uploads/2022/06/d-p244.jpg'
+        src={cat}
       />
     </div>
     <div>
       <img
         alt=''
-        src='http://vu.com.pk/DPEI/wp-content/uploads/2022/06/d-p244.jpg'
+        src={cat}
       />
     </div>
     <div>
       <img
         alt=''
-        src='http://vu.com.pk/DPEI/wp-content/uploads/2022/06/d-p244.jpg'
+        src={cat}
       />
     </div>
   </InfiniteCarousel>
