@@ -77,44 +77,32 @@
     font-family: Roboto;
    
  } */
-/* 
- button{
+
+
+ .navdropdown-item {
     display: inline-block;
-    border: none;
-    padding: 1rem 2rem;
-    margin: 0;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-size: 1rem;
-    cursor: pointer;
-    text-align: center;
-    transition: background 250ms ease-in-out, 
-                transform 150ms ease;
-    -webkit-appearance: none;
-    -moz-appearance: none;
- }
+    position: relative;
+    color: #0087ca;
+  }
+  
+  .navdropdown-item {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .navdropdown-item {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
 
-
-
- button:hover{
-    background: #0053ba;
- } */
-
-
-
-/* button:hover,
-button:focus {
-    background: #0053ba;
-}
-
-button:focus {
-    outline: 1px solid #fff;
-    outline-offset: -4px;
-}
-
-button:active {
-    transform: scale(0.99);
-} */
 
 .nav-links {
     color: white;

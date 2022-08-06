@@ -4,12 +4,16 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import {NavLink, Link} from 'react-router-dom';
+import styled from 'styled-components';
+
 
 const Navbarr = () => {
+
+  
  //flex-grow-1 justify-content-evenly
   return (
     <div >
-         <Navbar  bg="light" className='py-4' expand="xl" >
+         <Navbar sticky='top' bg="light" className='py-4' expand="xl" >
       <Container >
         <Navbar.Toggle className='m-auto'aria-controls="basic-navbar-nav" />
         <Navbar.Collapse  id="basic-navbar-nav"  >
@@ -18,7 +22,7 @@ const Navbarr = () => {
             <Nav.Link  as={NavLink} to= '/'  style={{fontSize:"30px",marginLeft:'20px'}}>主頁</Nav.Link>
             
           
-            <NavDropdown style={{fontSize:"30px",marginLeft:'20px'}}title={"石碑"  } >
+            <NavDropdown   style={{fontSize:"30px",marginLeft:'20px'}}title={"石碑"  } >
 
               <NavDropdown.Item  as={NavLink} to= '/FlatMarkers'  style={{fontSize:"20px"}}>平碑</NavDropdown.Item>
               <NavDropdown.Item  as={NavLink} to= '/斜碑' style={{fontSize:"20px"}}>斜碑 </NavDropdown.Item>

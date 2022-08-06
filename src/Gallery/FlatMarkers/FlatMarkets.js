@@ -7,10 +7,17 @@ import Carousel, { Modal, ModalGateway } from "react-images";
 import Navbarr from '../../NavBar/Navbarr';
 import Footer from '../../Footer/Footer';
 import Header from '../../Header/Header';
+import Paginations from '../../Paginations/Paginations';
+
+
  //http://neptunian.github.io/react-photo-gallery/examples/basic-rows.html
 const FlatMarkers = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
+
+  const [currentPage, setCurrentPage] = useState(1);
+  const [imagesPerPage, setImagesPerPage] = useState(6);
+  const [totalImages, setTotalImages] = useState(10);
 
   const openLightbox = useCallback((event, { photo, index }) => {
     setCurrentImage(index);
@@ -21,6 +28,15 @@ const FlatMarkers = () => {
     setCurrentImage(0);
     setViewerIsOpen(false);
   };
+
+
+    //Get current posts
+    const indexOfLastPost = currentPage * imagesPerPage;
+    const indexOfFirstPost = indexOfLastPost - imagesPerPage;
+    const currentPhotos = photos.slice(indexOfFirstPost, indexOfLastPost);
+
+
+    const paginate = (pageNumber) => setCurrentPage(pageNumber);
   
     return(
       
@@ -29,7 +45,7 @@ const FlatMarkers = () => {
       <Navbarr/>
       <div className="gallery_container grow img">
      <Gallery
-      photos={photos}
+      photos={currentPhotos}
       margin={20}
       targetRowHeight = {300}  
       onClick={openLightbox} 
@@ -49,6 +65,14 @@ const FlatMarkers = () => {
         ) : null}
       </ModalGateway>
       </div>
+
+      <Paginations 
+        postsPerPage={imagesPerPage} 
+        totalPosts = {totalImages}
+        paginate ={paginate}
+        currentPage = {currentPage}
+      />         
+
       <Footer/>
    </div>
 );
