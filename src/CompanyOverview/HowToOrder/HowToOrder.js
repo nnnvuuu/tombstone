@@ -1,9 +1,8 @@
-
 import Navbar from '../../NavBar/Navbarr';
 import Header from '../../Header/Header';
 import Footer from '../../Footer/Footer';
 
-const ProductAndService = () => {
+const HowToOrder = () => {
     return(
         <div>
             <Header/>
@@ -16,4 +15,4 @@ const ProductAndService = () => {
     );
 }
 
-export default ProductAndService;
+export default HowToOrder;

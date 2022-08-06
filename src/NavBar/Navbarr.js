@@ -68,16 +68,16 @@ const Navbarr = () => {
                
               <NavDropdown.Item href="#action/3.1" style={{fontSize:"20px"}} as={NavLink} to= '/About_us'>关于我们</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.1" style={{fontSize:"20px"}} as={NavLink} to= '/ProductAndService'>產品和服務</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2" style={{fontSize:"20px"}}>如何訂購墓碑</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}}>墓碑十問和十答</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}}>關於隱私</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2" style={{fontSize:"20px"}} as={NavLink} to= '/HowToOrder'>如何訂購墓碑</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}} as={NavLink} to= '/FAQ'>墓碑十問和十答</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}} as={NavLink} to= '/Privacy'>關於隱私</NavDropdown.Item>
             
               </div>
          
             </NavDropdown>
 
 
-            <Nav.Link href="#home"  style={{fontSize:"30px",marginLeft:'20px'}}>聯繫我們</Nav.Link>
+            <Nav.Link href="#home"  style={{fontSize:"30px",marginLeft:'20px'}} as={NavLink} to= '/ContactUs'>聯繫我們</Nav.Link>
 
 
 
