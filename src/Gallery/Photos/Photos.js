@@ -56,4 +56,54 @@ export const photos = [
         height: 5,
   
     },  
+    {
+        src: hihi,
+        width: 5,
+        height: 5,
+  
+    }, 
+    {
+        src: hihi,
+        width: 5,
+        height: 5,
+  
+    }, 
+    {
+        src: hihi,
+        width: 5,
+        height: 5,
+  
+    }, 
+    {
+        src: hihi,
+        width: 5,
+        height: 5,
+  
+    },
+    {
+        src: hihi,
+        width: 5,
+        height: 5,
+  
+    }, 
+    {
+        src: hihi,
+        width: 5,
+        height: 5,
+  
+    }, 
+    {
+        src: hihi,
+        width: 5,
+        height: 5,
+  
+    }, 
+    {
+        src: hihi,
+        width: 5,
+        height: 5,
+  
+    }, 
+    
+     
   ];

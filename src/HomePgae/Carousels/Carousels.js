@@ -45,6 +45,7 @@ import 'swiper/css';
 import Slider from "react-slick";
 import InfiniteCarousel from 'react-leaf-carousel';
 import cat from './cat.jpg';
+import hihi from './hihi.png';
 
 //https://codespots.com/library/item/2666
 const Carousels = () => {

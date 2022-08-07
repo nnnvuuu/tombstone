@@ -16,8 +16,8 @@ const FlatMarkers = () => {
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
   const [currentPage, setCurrentPage] = useState(1);
-  const [imagesPerPage, setImagesPerPage] = useState(6);
-  const [totalImages, setTotalImages] = useState(10);
+  const [imagesPerPage, setImagesPerPage] = useState(9);
+  const [totalImages, setTotalImages] = useState(17);
 
   const openLightbox = useCallback((event, { photo, index }) => {
     setCurrentImage(index);

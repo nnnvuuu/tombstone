@@ -4,6 +4,7 @@ import Information from './Information/Information'
 import Footer from '../Footer/Footer';
 import LiveChat from '../LiveChat/LiveChat';
 import Header from '../Header/Header';
+import GoogleMap from '../Map/Map';
 
 const HomePage = () =>{
     return(
@@ -13,6 +14,7 @@ const HomePage = () =>{
          <Carousels/>
          <Information/>
          <LiveChat/>
+         <GoogleMap/>
          <Footer/>
        
        </div>

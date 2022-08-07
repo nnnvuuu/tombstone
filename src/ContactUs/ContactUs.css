@@ -1,0 +1,30 @@
+.ContactUs_container{
+    display: flex;
+    border: 15px  ;
+    box-shadow: 20px 20px 50px rgb(194, 190, 190);
+    margin: auto;
+    margin-top: 50px;
+    width: 50%;
+    height:30em;
+}
+
+.ContactUs_inner_container{
+    display: flex;
+    width: 90%;
+    margin:auto;
+    height: 70%;
+  
+}
+
+.ContactUs_inner_left_container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+
+
+.ContactUs_inner_right_container{
+    width: 40%;
+}

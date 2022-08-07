@@ -11,6 +11,7 @@ import HowToOrder from './CompanyOverview/HowToOrder/HowToOrder';
 import FAQ from './CompanyOverview/FAQ/FAQ';
 import Privacy from './CompanyOverview/Privacy/Privacy';
 import ContactUs from './ContactUs/ContactUs';
+
 import {
   BrowserRouter,
   Routes,
