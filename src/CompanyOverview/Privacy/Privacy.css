@@ -1,0 +1,18 @@
+.privacy_container{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin:auto;
+    /* display: inline-block;
+    text-align: left; */
+}
+
+
+
+@media (max-width: 768px) { 
+    .privacy_container{
+      height: 300px;
+    }
+}
