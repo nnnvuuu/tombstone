@@ -21,6 +21,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    gap: 1.5px;
 }
 
 .left-inner-container > h1{
@@ -38,6 +39,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+   
   
 }
 
@@ -53,8 +55,27 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin-top: 30px;
+    margin-top: 34px;
 }
+
+.flex-inner-container-left-first-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.flex-inner-container-left-last-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 38px;
+}
+
 
 
 .flex-inner-container-right{

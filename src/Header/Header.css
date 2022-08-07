@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: 'storeTitleFont';
     src:url('../Utitles/stroe_title_font.ttf') format('truetype');
-  }
+  } */
 
  .header-container{
     background-color:#f7f7f7;
@@ -14,7 +14,7 @@
 
 .header_title{
     letter-spacing: 17px;
-    font-family: 'storeTitleFont' ;
+    /* font-family: 'storeTitleFont' ; */
 }
 
 .right_subtitle{
@@ -22,7 +22,7 @@
 }
 
 .header_image{
-    margin-top: 14px;
+    margin-top: 5px;
     height: 50px;
     width: 50px;
 }
@@ -51,7 +51,36 @@
 
 
 
+@media (max-width: 768px) { 
+    .header-container{
+        background-color:#f7f7f7;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
 
+
+    .header_inner_left_container{
+        all:unset,
+    }
+    
+    .header_inner_right_container{
+        all:unset
+
+    }
+
+    .header_title{
+        text-align: center;
+    }
+    
+    .right_subtitle{
+        text-align: center;
+    }
+    
+}
 
 
 @media (min-width: 375px) { 
