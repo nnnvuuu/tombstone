@@ -5,7 +5,8 @@ import { GoogleMap, InfoWindowF, MarkerF, useJsApiLoader } from '@react-google-m
 //https://www.npmjs.com/package/@react-google-maps/api
 const containerStyle = {
   width: '100%',
-  height: '70vh'
+  height: '70vh',
+  marginTop: '60px',
 };
 
 // const center = {
