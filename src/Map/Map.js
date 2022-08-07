@@ -28,7 +28,7 @@ export default function Map() {
 
   const onLoad = React.useCallback(function callback(map) {
     const bounds = new window.google.maps.LatLngBounds(center);
-    map.setZoom(15);
+    map.setZoom(16);
     setMap(map)
   }, [])
 
