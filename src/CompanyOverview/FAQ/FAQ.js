@@ -60,6 +60,7 @@ const styles = {
     rowContentColor: 'grey',
     arrowColor: "red",
     titleTextSize:"50px",
+    
    
     
 };
@@ -79,8 +80,9 @@ const FAQ = () => {
         <div>
             <Header/>
             <Navbar/>
-            <div>
-                <Faq
+            <div className='faq-style-wrapper'>
+                <Faq 
+                
                 data={data}
                 styles={styles}
                 config={config}
