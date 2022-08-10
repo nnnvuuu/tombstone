@@ -34,5 +34,27 @@
         },
         "item6": "聯繫我們",
         "item7": "繁體中文"
+    },
+
+    "information":{
+        "item1":{
+            "item1":"聯系我們",
+            "subitem1":"電話號碼",
+            "subitem2":"地址",
+            "subitem3":"邮箱",
+            "subitem4":"微信"
+        },
+        "item2":{
+            "item2":"營業時間",
+            "subitem1":"星期一",
+            "subitem2":"星期二",
+            "subitem3":"星期三",
+            "subitem4":"星期四",
+            "subitem5":"星期五",
+            "subitem6":"星期六",
+            "subitem7":"星期日"  
+        }
     }
+
+
 }

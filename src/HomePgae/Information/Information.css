@@ -153,7 +153,10 @@
 
 
 
-
+.remove_a_tag_css{
+    color: inherit; 
+    text-decoration:none;
+}
 
 
 @media (max-width: 765px) { 

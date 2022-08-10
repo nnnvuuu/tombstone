@@ -36,5 +36,24 @@
         },
         "item6": "Contact Us",
         "item7": "English"
+    },
+    "information":{
+        "item1":{
+            "item1":"CONTACT US",
+            "subitem1":"Phone Number",
+            "subitem2":"Location",
+            "subitem3":"Email",
+            "subitem4":"WeChat"
+        },
+        "item2":{
+            "item2":"BUSINESS HOURS",
+            "subitem1":"Monday",
+            "subitem2":"Tuesday",
+            "subitem3":"Wednesday",
+            "subitem4":"Thursday",
+            "subitem5":"Friday",
+            "subitem6":"Saturday",
+            "subitem7":"Sunday"  
+        }
     }
 }
