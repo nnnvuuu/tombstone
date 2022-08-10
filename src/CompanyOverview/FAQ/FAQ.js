@@ -60,7 +60,7 @@ const styles = {
     rowContentColor: 'grey',
     arrowColor: "red",
     titleTextSize:"50px",
-    
+   
     
 };
 
