@@ -10,19 +10,45 @@ import PropTypes from 'prop-types';
 import {setEnglish,setChinese} from '../redux/actions/utilityAction';
 import { useTranslation } from "react-i18next";
 import i18n from '../text/i18n';
+import { useNavigate } from "react-router-dom";
+import { useLocation } from 'react-router-dom'
 
-
+//false = chinese, true = eng
 const Navbarr = (props) => {
   const { t } = useTranslation();
   const [isclicked, setIsclicked] = useState(false);
+  const navigate = useNavigate();
+
   const handleClick = () => {
+    // console.log(location.pathname);
+    if(!isclicked){
+      setIsclicked(true);
+    
+      // navigate("../FAQ_en", { replace: true });
+    }
+    else if(isclicked){
+      setIsclicked(false);
+      // navigate("../FAQ", { replace: true });
+    }
     if(i18n.language == 'en'){
       i18n.changeLanguage('zh');
+      if(location.pathname == "/FAQ" || location.pathname == "/FAQ_en"){
+       navigate("../FAQ", { replace: true });
+      }
     }
-    else
+    else{
     i18n.changeLanguage('en');
-  }
+    if(location.pathname == "/FAQ_en" || location.pathname == "/FAQ"  ){
+      navigate("../FAQ_en", { replace: true });
+     }
+    }
 
+   
+  
+
+
+  }
+  const location = useLocation();
  //flex-grow-1 justify-content-evenly
   return (
     <div >
@@ -82,8 +108,16 @@ const Navbarr = (props) => {
                
               <NavDropdown.Item href="#action/3.1" style={{fontSize:"20px"}} as={NavLink} to= '/About_us'>{t("navbar.item5.subitem1")}</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.1" style={{fontSize:"20px"}} as={NavLink} to= '/ProductAndService'>{t("navbar.item5.subitem2")}</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2" style={{fontSize:"20px"}} as={NavLink} to= '/HowToOrder'>{t("navbar.item5.subitem3")}</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}} as={NavLink} to= '/FAQ'>{t("navbar.item5.subitem4")}</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2" style={{fontSize:"20px"}} as={NavLink} to= '/HowToOrder'>{t("navbar.item5.subitem3")}</NavDropdown.Item>     
+              {/* <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}} as={NavLink} to= '/FAQ'>{t("navbar.item5.subitem4")}</NavDropdown.Item> */}
+              {/* <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}} as={NavLink} to= '/FAQ' state={{ isclicked }}>{t("navbar.item5.subitem4")}</NavDropdown.Item> */}
+              {
+                
+                i18n.language == "en"? <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}} as={NavLink} to= '/FAQ_en'>{t("navbar.item5.subitem4")}</NavDropdown.Item> 
+                 :<NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}} as={NavLink} to= '/FAQ'>{t("navbar.item5.subitem4")}</NavDropdown.Item>
+              }
+             
+
               <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}} as={NavLink} to= '/Privacy'>{t("navbar.item5.subitem5")}</NavDropdown.Item>
             
               </div>
@@ -95,7 +129,7 @@ const Navbarr = (props) => {
 
 
        
-            <Nav.Link  onClick={handleClick} style={{fontSize:"25px",marginLeft:'50px'}}>{t("navbar.item7")} </Nav.Link>
+            <Nav.Link  onClick={() => handleClick(location)} style={{fontSize:"25px",marginLeft:'50px'}}>{t("navbar.item7")} </Nav.Link>
 
 
           </Nav>

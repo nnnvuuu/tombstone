@@ -55,4 +55,27 @@
     }
     
 }
+
+
+
+@media (min-width: 2100px) { 
+    .faq-style-wrapper{
+        padding-right: 25em !important;
+        padding-left: 25em !important;
+        font-size: large !important;
+        color: teal !important;
+    }
+    
+}
+
+
+@media (min-width: 2400px) { 
+    .faq-style-wrapper{
+        padding-right: 30em !important;
+        padding-left: 30em !important;
+        font-size: x-large !important;
+        color: teal !important;
+    }
+    
+}
  

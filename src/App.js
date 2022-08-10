@@ -9,11 +9,12 @@ import AboutUs from './CompanyOverview/AboutUs/AboutUs';
 import ProductAndService from './CompanyOverview/ProductAndService/ProductAndService';
 import HowToOrder from './CompanyOverview/HowToOrder/HowToOrder';
 import FAQ from './CompanyOverview/FAQ/FAQ';
+import FAQ_en from './CompanyOverview/FAQ/FAQ_en';
 import Privacy from './CompanyOverview/Privacy/Privacy';
 import ContactUs from './ContactUs/ContactUs';
 import {Provider} from 'react-redux';
 import store from './redux/store/store';
-
+import i18n from './text/i18n';
 import {
   BrowserRouter,
   Routes,
@@ -44,15 +45,20 @@ function App() {
           <Routes>
             <Route path="/HowToOrder" element={<HowToOrder/>} /> 
           </Routes>
-
+        
           <Routes>
             <Route path="/FAQ" element={<FAQ/>} /> 
           </Routes>
-
+      
+  
+          <Routes>
+            <Route path="/FAQ_en" element={<FAQ_en/>} /> 
+          </Routes>
+   
           <Routes>
             <Route path="/Privacy" element={<Privacy/>} /> 
           </Routes>
-
+     
           {/* Contact Us */}
 
           <Routes>
