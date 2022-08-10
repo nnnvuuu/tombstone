@@ -11,6 +11,8 @@ import HowToOrder from './CompanyOverview/HowToOrder/HowToOrder';
 import FAQ from './CompanyOverview/FAQ/FAQ';
 import Privacy from './CompanyOverview/Privacy/Privacy';
 import ContactUs from './ContactUs/ContactUs';
+import {Provider} from 'react-redux';
+import store from './redux/store/store';
 
 import {
   BrowserRouter,
@@ -21,6 +23,7 @@ import {
 function App() {
   return (
     <div >
+      <Provider store = {store}>
       <BrowserRouter>
           <Routes>
             <Route path="/" element={<HomePage/>} /> 
@@ -58,6 +61,7 @@ function App() {
 
 
        </BrowserRouter>
+       </Provider>
     </div>
   );
 }

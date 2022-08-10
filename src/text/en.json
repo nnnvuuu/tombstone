@@ -1,0 +1,40 @@
+
+
+
+{
+    "navbar": {
+        "item1": "Home",
+        "item2": {
+            "item2":"Monument",
+             "subitem1":"Flat Markers",
+             "subitem2":"Slant Markers",
+             "subitem3":"Single Monuments",
+             "subitem4":"Double Monument",
+             "subitem5":"Family Monuments",
+             "subitem6":"Arches"
+
+        },
+        "item3": {
+            "item3":"Urn",
+             "subitem1":"Artificial Cup",
+             "subitem2":"Natural Cup"
+
+        },
+        "item4": {
+            "item4":"Services",
+             "subitem1":"On-site Engraving",
+             "subitem2":"Ceramic Photos",
+             "subitem3":"Etchings"
+        },
+        "item5": {
+            "item5":"About Us",
+             "subitem1":"About Us",
+             "subitem2":"Product And Service",
+             "subitem3":"How to Order Monuments",
+             "subitem4":"Ten Questions and Answers on Monuments",
+             "subitem5":"Privacy Policy"
+        },
+        "item6": "Contact Us",
+        "item7": "English"
+    }
+}

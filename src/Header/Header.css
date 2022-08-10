@@ -4,7 +4,7 @@
   } */
 
  .header-container{
-    background-color:#f7f7f7;
+    background-color:white;
     height: 130px;
     display: flex;
     justify-content: center;
@@ -53,7 +53,7 @@
 
 @media (max-width: 768px) { 
     .header-container{
-        background-color:#f7f7f7;
+        background-color:white;
         height: 200px;
         display: flex;
         flex-direction: column;

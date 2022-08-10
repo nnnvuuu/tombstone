@@ -1,44 +1,58 @@
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import {NavLink, Link} from 'react-router-dom';
 import styled from 'styled-components';
+import {connect} from 'react-redux';
+import PropTypes from 'prop-types';
+import {setEnglish,setChinese} from '../redux/actions/utilityAction';
+import { useTranslation } from "react-i18next";
+import i18n from '../text/i18n';
 
 
-const Navbarr = () => {
+const Navbarr = (props) => {
+  const { t } = useTranslation();
+  const [isclicked, setIsclicked] = useState(false);
+  const handleClick = () => {
+    if(i18n.language == 'en'){
+      i18n.changeLanguage('zh');
+    }
+    else
+    i18n.changeLanguage('en');
+  }
 
-  
  //flex-grow-1 justify-content-evenly
   return (
     <div >
-         <Navbar sticky='top' bg="light" className='py-4' expand="xl" >
+      {/* bg="light" */}
+         <Navbar sticky='top'  className='py-4' expand="xl" >
       <Container >
         <Navbar.Toggle className='m-auto'aria-controls="basic-navbar-nav" />
         <Navbar.Collapse  id="basic-navbar-nav"  >
           <Nav  className='m-auto ' >
         
-            <Nav.Link  as={NavLink} to= '/'  style={{fontSize:"30px",marginLeft:'20px'}}>主頁</Nav.Link>
-            
-          
-            <NavDropdown   style={{fontSize:"30px",marginLeft:'20px'}}title={"石碑"  } >
+            <Nav.Link  as={NavLink} to= '/'  style={{fontSize:"25px",marginLeft:'50px'}}>{t('navbar.item1')}</Nav.Link>
+            <NavDropdown   style={{fontSize:"25px",marginLeft:'50px'}}title={t("navbar.item2.item2")} >
 
-              <NavDropdown.Item  as={NavLink} to= '/FlatMarkers'  style={{fontSize:"20px"}}>平碑</NavDropdown.Item>
-              <NavDropdown.Item  as={NavLink} to= '/斜碑' style={{fontSize:"20px"}}>斜碑 </NavDropdown.Item>
-              <NavDropdown.Item  as={NavLink} to= '/單人碑' style={{fontSize:"20px"}}>單人碑</NavDropdown.Item>
-              <NavDropdown.Item  as={NavLink} to= '/雙人碑' style={{fontSize:"20px"}}>雙人碑</NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to= '/家族碑'  style={{fontSize:"20px"}}>家族碑</NavDropdown.Item>
-              <NavDropdown.Item  as={NavLink} to= '/牌坊'  style={{fontSize:"20px"}}>牌坊</NavDropdown.Item>
-     
+
+              
+            <NavDropdown.Item  as={NavLink} to= '/FlatMarkers' style={{fontSize:"20px"}}>{t("navbar.item2.subitem1")}</NavDropdown.Item>
+              <NavDropdown.Item  as={NavLink} to= '/斜碑' style={{fontSize:"20px"}}>{t("navbar.item2.subitem2")} </NavDropdown.Item>
+              <NavDropdown.Item  as={NavLink} to= '/單人碑' style={{fontSize:"20px"}}>{t("navbar.item2.subitem3")}</NavDropdown.Item>
+              <NavDropdown.Item  as={NavLink} to= '/雙人碑' style={{fontSize:"20px"}}>{t("navbar.item2.subitem4")}</NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to= '/家族碑'  style={{fontSize:"20px"}}>{t("navbar.item2.subitem5")}</NavDropdown.Item>
+              <NavDropdown.Item  as={NavLink} to= '/牌坊'  style={{fontSize:"20px"}}>{t("navbar.item2.subitem6")}</NavDropdown.Item>
+
             </NavDropdown>
         
-            <NavDropdown  style={{fontSize:"30px",marginLeft:'20px'}} title="骨灰盅"  >
+            <NavDropdown  style={{fontSize:"25px",marginLeft:'50px'}} title={t("navbar.item3.item3")} >
       
         <div>
           
-              <NavDropdown.Item href="#action/3.1" style={{fontSize:"20px"}}>人造吉盅</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2" style={{fontSize:"20px"}}> 天然吉盅</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1" style={{fontSize:"20px"}}>{t("navbar.item3.subitem1")}</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2" style={{fontSize:"20px"}}> {t("navbar.item3.subitem2")}</NavDropdown.Item>
             
               </div>
       
@@ -46,42 +60,42 @@ const Navbarr = () => {
             </NavDropdown>
 
 
-            <NavDropdown  style={{fontSize:"30px",marginLeft:'20px'}} title="服務" >
+            <NavDropdown  style={{fontSize:"25px",marginLeft:'50px'}} title={t("navbar.item4.item4")} >
          
             
             <div>
                
-              <NavDropdown.Item href="#action/3.1" style={{fontSize:"20px"}}>吉盅刻字</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2" style={{fontSize:"20px"}}>石碑補字</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}}>瓷相</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}}>影雕</NavDropdown.Item>
+             
+              <NavDropdown.Item href="#action/3.2" style={{fontSize:"20px"}}>{t("navbar.item4.subitem1")}</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}}>{t("navbar.item4.subitem2")}</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}}>{t("navbar.item4.subitem3")}</NavDropdown.Item>
             
               </div>
          
             </NavDropdown>
 
 
-            <NavDropdown  style={{fontSize:"30px",marginLeft:'20px'}} title="公司簡介" >
+            <NavDropdown  style={{fontSize:"25px",marginLeft:'50px'}} title={t("navbar.item5.item5")} >
          
             
             <div>
                
-              <NavDropdown.Item href="#action/3.1" style={{fontSize:"20px"}} as={NavLink} to= '/About_us'>关于我们</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.1" style={{fontSize:"20px"}} as={NavLink} to= '/ProductAndService'>產品和服務</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2" style={{fontSize:"20px"}} as={NavLink} to= '/HowToOrder'>如何訂購墓碑</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}} as={NavLink} to= '/FAQ'>墓碑十問和十答</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}} as={NavLink} to= '/Privacy'>關於隱私</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1" style={{fontSize:"20px"}} as={NavLink} to= '/About_us'>{t("navbar.item5.subitem1")}</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1" style={{fontSize:"20px"}} as={NavLink} to= '/ProductAndService'>{t("navbar.item5.subitem2")}</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2" style={{fontSize:"20px"}} as={NavLink} to= '/HowToOrder'>{t("navbar.item5.subitem3")}</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}} as={NavLink} to= '/FAQ'>{t("navbar.item5.subitem4")}</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}} as={NavLink} to= '/Privacy'>{t("navbar.item5.subitem5")}</NavDropdown.Item>
             
               </div>
          
             </NavDropdown>
 
 
-            <Nav.Link href="#home"  style={{fontSize:"30px",marginLeft:'20px'}} as={NavLink} to= '/ContactUs'>聯繫我們</Nav.Link>
+            <Nav.Link href="#home"  style={{fontSize:"25px",marginLeft:'50px'}} as={NavLink} to= '/ContactUs'>{t("navbar.item6")} </Nav.Link>
 
 
-
-            <Nav.Link href="#home"  style={{fontSize:"30px",marginLeft:'20px'}}>English</Nav.Link>
+       
+            <Nav.Link  onClick={handleClick} style={{fontSize:"25px",marginLeft:'50px'}}>{t("navbar.item7")} </Nav.Link>
 
 
           </Nav>
@@ -94,4 +108,17 @@ const Navbarr = () => {
 
 
 
-export default Navbarr;
+Navbarr.propTypes = {
+  setEnglish:PropTypes.func.isRequired,
+  setChinese:PropTypes.func.isRequired,
+  isEnglish: PropTypes.bool,
+  isChinese: PropTypes.bool,
+}
+
+const mapStateToProps = state  =>({
+  isEnglish:state.utility.isEnglish,
+  isChinese:state.utility.isChinese,
+});
+
+
+export default connect(mapStateToProps,{setEnglish,setChinese})(Navbarr); //,login

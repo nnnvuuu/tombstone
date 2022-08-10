@@ -1,0 +1,38 @@
+
+
+{
+    "navbar": {
+        "item1": "主頁",
+        "item2": {
+            "item2":"石碑",
+             "subitem1":"平碑",
+             "subitem2":"斜碑",
+             "subitem3":"單人碑",
+             "subitem4":"雙人碑",
+             "subitem5":"家族碑",
+             "subitem6":"牌坊"
+        },
+        "item3": {
+            "item3":"骨灰盅",
+             "subitem1":"人造吉盅",
+             "subitem2":"天然吉盅"
+
+        },
+        "item4": {
+            "item4":"服務",
+             "subitem1":"石碑補字",
+             "subitem2":"瓷相",
+             "subitem3":"影雕"
+        },
+        "item5": {
+            "item5":"公司簡介",
+             "subitem1":"关于我们",
+             "subitem2":"產品和服務",
+             "subitem3":"如何訂購墓碑",
+             "subitem4":"墓碑十問和十答",
+             "subitem5":"關於隱私"
+        },
+        "item6": "聯繫我們",
+        "item7": "繁體中文"
+    }
+}
