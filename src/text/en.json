@@ -104,5 +104,23 @@
     "Privacy":{
         "item1":"On the Yonglong Tombstone website, there are many Yonglong Tombstones for visitors to browse. Each tombstone is a work of art, and behind each tombstone, there is an extraordinary story.",
         "item2":"In order to protect the privacy of his family, Yonglong has already blurred the stele works displayed on the Internet. But this will affect the complete view of the tombstone. Yonglong respects the wishes of the family members. If the family members do not agree with the blurring, or do not agree with the tombstone pictures being online, please call to inform us, and Yonglong will deal with them according to the opinions of the family members."
+    },
+
+    "ContactUs":{
+        "item1":{
+            "title": "Leave us a meesage",
+            "subitem1": "Name",
+            "subitem2": "Email",
+            "subitem3": "Phone",
+            "subitem4": "Message",
+            "subitem5": "Send"
+        },
+        "item2":{
+            "title": "Contact us",
+            "subitem1": "Phone Numebr",
+            "subitem2": "Location",
+            "subitem3": "Email",
+            "subitem4": "WeChat"
+        }
     }
 }
