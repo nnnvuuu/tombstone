@@ -38,11 +38,7 @@
 
 
 
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-// Import Swiper styles
-import 'swiper/css';
-import Slider from "react-slick";
+
 import InfiniteCarousel from 'react-leaf-carousel';
 import cat from './cat.jpg';
 import hihi from './hihi.png';
