@@ -11,9 +11,9 @@ const port = process.env.PORT || 4000;
 app.use(cors());
 app.use(express.json());
  
-const images = require('./routes/images');
+// const images = require('./routes/images');
 
-app.use('/image',images);
+// app.use('/image',images);
 
   // Serve static assets if in production
   if (process.env.NODE_ENV === 'production') {
