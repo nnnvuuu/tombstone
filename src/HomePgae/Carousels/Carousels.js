@@ -55,6 +55,7 @@ import img10 from '../Carousels/photos/10.webp';
 import img11 from '../Carousels/photos/11.webp';
 import img12 from '../Carousels/photos/12.webp';
 import './Carousel.css';
+import Carousel, { Modal, ModalGateway } from "react-images";
 
 //https://codespots.com/library/item/2666
 const Carousels = () => {
@@ -94,13 +95,14 @@ const Carousels = () => {
     // sidesOpacity={.5}
     // sideSize={.1}
     cycleInterval = {5000}
-    arrows = {false}
+    arrows = {true}
     pauseOnHover = {true}
     autoCycle = {true}
     slidesToScroll={1}
     slidesToShow={4}
     scrollOnDevice={true}
     lazyLoad = {true}
+    swipe = {true}
     animationDuration = {1500}
     // paging = {true}
   >
