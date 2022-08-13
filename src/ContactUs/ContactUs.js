@@ -58,8 +58,8 @@ const ContactUs = () => {
                                 <EnvelopeFill className='email'/>
                                 <h5 className='h5'>{t("ContactUs.item2.subitem3")}</h5>
                             </div>
-                                <p className='p'>dpeistone@gmail.com</p>
-                                <p className='p'>dpetrade@hotmail.com</p>
+                            <a href="mailto:dpeistone@gmail.com" className='remove_a_tag_css' ><p >dpeistone@gmail.com</p></a>
+                <a href="mailto:dpetrade@hotmail.com" className='remove_a_tag_css' ><p>dpetrade@hotmail.com</p></a>
                    
                             <div className='right_firstRow'>
                                 <img src={WeChatImg} className="wechat_img"/>

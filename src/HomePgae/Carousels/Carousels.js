@@ -46,13 +46,35 @@ import Slider from "react-slick";
 import InfiniteCarousel from 'react-leaf-carousel';
 import cat from './cat.jpg';
 import hihi from './hihi.png';
+import img1 from '../Carousels/photos/1.webp';
+import img2 from '../Carousels/photos/2.webp';
+import img3 from '../Carousels/photos/3.webp';
+import img4 from '../Carousels/photos/4.webp';
+import img5 from '../Carousels/photos/5.webp';
+import img6 from '../Carousels/photos/6.webp';
+import img7 from '../Carousels/photos/7.webp';
+import img8 from '../Carousels/photos/8.webp';
+import img9 from '../Carousels/photos/9.webp';
+import img10 from '../Carousels/photos/10.webp';
+import img11 from '../Carousels/photos/11.webp';
+import img12 from '../Carousels/photos/12.webp';
+import './Carousel.css';
 
 //https://codespots.com/library/item/2666
 const Carousels = () => {
   return(
       <div style={{marginTop:"30px"}}>
          <InfiniteCarousel
+         
+         
     breakpoints={[
+      // {
+      //   breakpoint: 481,
+      //   settings: {
+      //     slidesToShow: 1,
+      //     slidesToScroll: 1,
+      //   },
+      // },
       {
         breakpoint: 500,
         settings: {
@@ -68,6 +90,8 @@ const Carousels = () => {
           slidesToScroll: 3,
         },
       },
+
+   
     ]}
     // dots={true}
     // showSides={true}
@@ -87,123 +111,88 @@ const Carousels = () => {
     <div>
       <img
         alt=''
-        src={cat}
+        src={img1}
+        className="img_size"
       />
     </div>
     <div>
       <img
         alt=''
-        src={cat}
+        src={img2}
+        className="img_size"
       />
     </div>
     <div>
       <img
         alt=''
-        src={cat}
+        src={img3}
+        className="img_size"
       />
     </div>
     <div>
       <img
         alt=''
-        src={cat}
+        src={img4}
+        className="img_size"
       />
     </div>
     <div>
       <img
         alt=''
-        src={cat}
+        src={img5}
+        className="img_size"
       />
     </div>
     <div>
       <img
         alt=''
-        src={cat}
+        src={img6}
+        className="img_size"
       />
     </div>
     <div>
       <img
         alt=''
-        src={cat}
+        src={img7}
+        className="img_size"
       />
     </div>
     <div>
       <img
         alt=''
-        src={cat}
+        src={img8}
+        className="img_size"
       />
     </div>
     <div>
       <img
         alt=''
-        src={cat}
+        src={img9}
+        className="img_size"
       />
     </div>
     <div>
       <img
         alt=''
-        src={cat}
+        src={img10}
+        className="img_size"
       />
     </div>
     <div>
       <img
         alt=''
-        src={cat}
+        src={img11}
+        className="img_size"
       />
     </div>
     <div>
       <img
         alt=''
-        src={cat}
+        src={img12}
+        className="img_size"
       />
     </div>
-    <div>
-      <img
-        alt=''
-        src={cat}
-      />
-    </div>
-    <div>
-      <img
-        alt=''
-        src={cat}
-      />
-    </div>
-    <div>
-      <img
-        alt=''
-        src={cat}
-      />
-    </div>
-    <div>
-      <img
-        alt=''
-        src={cat}
-      />
-    </div>
-    <div>
-      <img
-        alt=''
-        src={cat}
-      />
-    </div>
-    <div>
-      <img
-        alt=''
-        src={cat}
-      />
-    </div>
-    <div>
-      <img
-        alt=''
-        src={cat}
-      />
-    </div>
-    <div>
-      <img
-        alt=''
-        src={cat}
-      />
-    </div>
+   
   </InfiniteCarousel>
       </div>
   );

@@ -53,7 +53,8 @@
             "subitem4":"Thursday",
             "subitem5":"Friday",
             "subitem6":"Saturday",
-            "subitem7":"Sunday"  
+            "subitem7":"Sunday" ,
+            "subitem8":"Closed"
         }
     },
 
@@ -122,5 +123,78 @@
             "subitem3": "Email",
             "subitem4": "WeChat"
         }
-    }
+    },
+
+    "HowToOrder":{
+        "item1":"1 The family must provide the name of the cemetery and the location of the blessed land.",
+        "item2":"2 Families preferably provide cemetery title deeds. If it is a public office, church, or other organization, the relevant The signature or seal of the manager.",
+        "item3":"3 Based on the cemetery information provided by the family, Yonglong makes appropriate professional suggestions for the design of the tombstone for the family refer to.",
+        "item4":"4 The family chooses the stone and design according to their personal situation. The company’s stone monument exhibition hall has a wealth of tombstones. board to choose from.",
+        "item5":{
+            "item5":"5 quotes:",
+            "subitem1":"5.1 Yonglong quotes according to the size of the tombstone specified by the cemetery.",
+            "subitem2":"5.2 Yonglong’s quotation includes one-stop service, from handling cemetery application documents, to pattern design, manufacturing, Delivery and installation.",
+            "subitem3":"5.3 Yonglong’s quotation does not include the foundation fee and application fee of the cemetery."
+        },
+        "item6":"6 The company informed the family of the estimated cost of the cemetery foundation. (Generally, the cemetery foundation fee is paid by the contractor collection).",
+        "item7":"7 The company completes the design drawings according to the requirements of the family. Family members must sign on the design drawings for confirmation.",
+        "item8":"8 The factory produces tombstones according to the drawings confirmed by the family members, so the drawings signed by the family members cannot be changed.",
+        "item9":{
+            "item9":"9 The detailed requirements listed on the design drawings generally include the following 4 points:",
+            "subitem1":"9.1 Whether to color, (some cemeteries are not allowed)",
+            "subitem2":"9.2 Whether porcelain phase is required, (some cemeteries are not allowed)",
+            "subitem3":"9.3 Is it necessary to apply gold foil (some cemeteries are not allowed)",
+            "subitem4":"9.4 List the manufacturing process used."
+        },
+        "item10":{
+            "item10":"10 Four things your family should do:",
+            "subitem1":"10.1 Sign to confirm the design drawings;",
+            "subitem2":"10.2 Sign the Cemetery Application Form;",
+            "subitem3":"10.3 Sign the family power of attorney;",
+            "subitem4":"10.4 Payment."
+        },
+        "item11":"11 Awaiting cemetery approval. (General approval time takes two to six weeks, but may take longer cases, depending on each cemetery)",
+        "item12":"12 Time to go up the mountain: For some conventional tombstones, you can go up the mountain half a year after the approval of the cemetery. The family monument will take a year to complete.",
+        "item13":"13 Notes on the time to climb the mountain: Sometimes the cemetery does not have enough time to prepare the foundation, which delays the time to climb the mountain. this In addition, the winter closure period of the cemetery must also be taken into account."
+        },
+
+        "ProductAndService":{
+            "title":"產品和服務",
+            "summary1":"概述： 刻製墓碑是一個古老的行業。由於電腦科技的發達，刻製墓碑已經成為一個 傳統文化和新科技相結合的新興行業。",
+            "summary2":"為了更好地為美國僑胞服務，永龍石 碑廠運用新科技，開發出許多獨一無二的產品和服務項目，解決了許多由於 文化的差異，多年來在美國華人社會無法解決的老大難問題。 永龍企業產品系列：",
+            "item1":{
+                "item1":"1 墓碑:",
+                "subitem1":"1.1 常規墓碑，",
+                "subitem2":"1.2 家族大碑"
+            },
+            "item2":{
+                "item2":"2 大型石製工程:",
+                "subitem1":"2.1 宗親牌坊",
+                "subitem2":"2.2 石屋陵園"
+            },
+            "item3":{
+                "item3":"3 吉盅:",
+                "subitem1":"3.1 天然石吉盅",
+                "subitem2":"3.2 銅製吉盅",
+                "subitem3":"3.3 人造石吉盅"
+            },
+            "item4":"4 瓷相",
+            "item5":{
+                "item5":"5 石畫 服務項目：",
+                "subitem1":"5.1 吉盅中英文刻字。",
+                "subtext1":"說明：就跟刻製碑文一樣，家人要在安置先人骨殖的吉盅上，銘刻碑文。 由於技術上的障礙，這件事長久以來是一個難題。一些家人甚至僱用招牌 公司，像做招牌那樣，將碑文貼在吉盅上面。永龍開發出先進的技術，像 做迷你墓碑那樣，將碑文銘刻在盅身，美觀莊重，親情和碑文永存。這種 雕刻技術適合多種材質，如天然石，銅製品，人造石，等等。",
+                "subitem2":"5.2 上山刻字。",
+                "subtext2":"說明：如果雙人碑的另一半留空，當另一半百年歸老，家人就需要上山刻 字的服務。",
+                "subitem3":"5.3 美東華人中文墓碑服務。",
+                "subtext3":"說明：雖然墓碑的噸位大，運輸不方便，但是永龍墓碑廠的產品和服務， 可以涵蓋美東大部份的地區。歡迎華裔家人上網查詢。"
+            }
+           
+            }
+
+
+
+  
+
+        
 }
+ 

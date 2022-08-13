@@ -10,6 +10,14 @@ let items = [];
 for (let number = 1; number <= Math.ceil(totalPosts / postsPerPage); number++) {
   items.push(number);
 }
+// useEffect(() => {
+//   window.scrollTo(0, 0)
+// }, [])
+
+function handleOnlick(item) {
+  paginate(item);
+  window.scrollTo(0, 0);
+}
 
 
   return(
@@ -20,7 +28,8 @@ for (let number = 1; number <= Math.ceil(totalPosts / postsPerPage); number++) {
             <Pagination.Item 
              key={item} 
              active={active===item}
-             onClick={()=> paginate(item)} 
+            //  onClick={()=> paginate(item)} 
+            onClick={()=>handleOnlick(item)} 
              href ="#">
                  {item}
             </Pagination.Item>

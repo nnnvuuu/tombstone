@@ -66,7 +66,7 @@ const Navbarr = (props) => {
               
             <NavDropdown.Item  as={NavLink} to= '/FlatMarkers' style={{fontSize:"20px"}}>{t("navbar.item2.subitem1")}</NavDropdown.Item>
               <NavDropdown.Item  as={NavLink} to= '/斜碑' style={{fontSize:"20px"}}>{t("navbar.item2.subitem2")} </NavDropdown.Item>
-              <NavDropdown.Item  as={NavLink} to= '/單人碑' style={{fontSize:"20px"}}>{t("navbar.item2.subitem3")}</NavDropdown.Item>
+              <NavDropdown.Item  as={NavLink} to= '/SingleMonument' style={{fontSize:"20px"}}>{t("navbar.item2.subitem3")}</NavDropdown.Item>
               <NavDropdown.Item  as={NavLink} to= '/雙人碑' style={{fontSize:"20px"}}>{t("navbar.item2.subitem4")}</NavDropdown.Item>
               <NavDropdown.Item as={NavLink} to= '/家族碑'  style={{fontSize:"20px"}}>{t("navbar.item2.subitem5")}</NavDropdown.Item>
               <NavDropdown.Item  as={NavLink} to= '/牌坊'  style={{fontSize:"20px"}}>{t("navbar.item2.subitem6")}</NavDropdown.Item>

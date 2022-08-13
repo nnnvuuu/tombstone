@@ -25,8 +25,8 @@ const Information = () =>{
                  <EnvelopeFill className='email_img'/>
                  <h5>{t("information.item1.subitem3")}</h5>
                 </div>
-                <p>dpeistone@gmail.com</p>
-                <p>dpetrade@hotmail.com</p>
+                <a href="mailto:dpeistone@gmail.com" className='remove_a_tag_css' ><p >dpeistone@gmail.com</p></a>
+                <a href="mailto:dpetrade@hotmail.com" className='remove_a_tag_css' ><p>dpetrade@hotmail.com</p></a>
                 <div className='wechat_wrapper'>
                  <img src = {WeChatImg} className='wechat_img'/>
                  <h5>{t("information.item1.subitem4")}</h5>
@@ -34,10 +34,12 @@ const Information = () =>{
                 <p>@dpeiny</p>
             </div>
 
-
-            <div className="information-inner-right-container">
+     
+            {/* <div className="information-inner-right-container">
               <h1>{t("information.item2.item2")}</h1>
+
               <div className='inner_wrapper'>
+
               <div className='monday_wrapper'>
                 <h5>{t("information.item2.subitem1")}</h5>
                 <p>10:00AM – 6:00PM</p>
@@ -60,15 +62,87 @@ const Information = () =>{
               </div>
               <div className='saturday_wrapper'>
                 <h5>{t("information.item2.subitem6")}</h5>
-                <p>Closed</p>
+                <p >{t("information.item2.subitem8")}</p>
               </div>
               <div className='sunday_wrapper'>
                 <h5>{t("information.item2.subitem7")}</h5>
                 <p>10:00AM – 6:00PM</p>
               </div>
-              </div>
-            </div>
 
+              </div>
+
+            </div>
+         */}
+
+
+          <div className="information-inner-right-container">
+              <h1>{t("information.item2.item2")}</h1>
+
+              {/* <div className='inner_wrapper'> */}
+
+           
+ 
+              <table className='table_container'>
+                <tr >
+                  <td><p style={{fontSize:"22px"}}>{t("information.item2.subitem1")}</p></td>
+                  <td><p style={{marginLeft:"30px"}}>10:00AM – 6:00PM</p></td>
+                </tr>
+                <tr>
+                  <td><p style={{fontSize:"22px"}}>{t("information.item2.subitem2")}</p></td>
+                  <td><p style={{marginLeft:"30px"}}>10:00AM – 6:00PM</p></td>
+                </tr>
+                <tr>
+                  <td><p style={{fontSize:"22px"}}>{t("information.item2.subitem3")}</p></td>
+                  <td><p style={{marginLeft:"30px"}}>10:00AM – 6:00PM</p></td>
+                </tr>
+                <tr>
+                  <td><p style={{fontSize:"22px"}}>{t("information.item2.subitem4")}</p></td>
+                  <td><p style={{marginLeft:"30px"}}>10:00AM – 6:00PM</p></td>
+                </tr>
+                <tr>
+                  <td><p style={{fontSize:"22px"}}>{t("information.item2.subitem5")}</p></td>
+                  <td><p style={{marginLeft:"30px"}}>10:00AM – 6:00PM</p></td>
+                </tr>
+                <tr>
+                  <td><p style={{fontSize:"22px"}}>{t("information.item2.subitem6")}</p></td>
+                  <td><p style={{marginLeft:"30px"}}>{t("information.item2.subitem8")}</p></td>
+                </tr>
+                <tr>
+                  <td><p style={{fontSize:"22px"}}>{t("information.item2.subitem7")}</p></td>
+                  <td><p style={{marginLeft:"30px"}}>10:00AM – 6:00PM</p></td>
+                </tr>
+                
+              </table>
+
+              {/* <div className='monday_wrapper'>
+                <p>{t("information.item2.subitem1")} 10:00AM – 6:00PM </p>
+               
+              </div>
+              <div className='tuesday_wrapper'>
+              <p>{t("information.item2.subitem2")} 10:00AM – 6:00PM </p>
+              </div>
+              <div className='wednesday_wrapper'>
+              <p>{t("information.item2.subitem3")} 10:00AM – 6:00PM </p>
+              </div>
+              <div className='thursday_wrapper'>
+              <p>{t("information.item2.subitem4")} 10:00AM – 6:00PM </p>
+              </div>
+              <div className='friday_wrapper'>
+              <p>{t("information.item2.subitem5")} 10:00AM – 6:00PM </p>
+              </div>
+              <div className='saturday_wrapper'>
+                <p>{t("information.item2.subitem6")} {t("information.item2.subitem8")} </p>
+              
+              </div>
+              <div className='sunday_wrapper'>
+                <p>{t("information.item2.subitem7")} 10:00AM – 6:00PM</p>
+            
+              </div> */}
+
+              </div>
+
+            {/* </div> */}
+        
 
 
         </div>

@@ -14,6 +14,7 @@ import Privacy from './CompanyOverview/Privacy/Privacy';
 import ContactUs from './ContactUs/ContactUs';
 import {Provider} from 'react-redux';
 import store from './redux/store/store';
+import SingleMonument from '../src/Gallery/SingleMonument/SingleMonument';
 import i18n from './text/i18n';
 import {
   BrowserRouter,
@@ -31,6 +32,10 @@ function App() {
           </Routes>
           <Routes>
             <Route path="/FlatMarkers" element={<FlatMarkers/>} /> 
+          </Routes>
+
+          <Routes>
+            <Route path="/SingleMonument" element={<SingleMonument/>} /> 
           </Routes>
 
             {/* Company Overview */}

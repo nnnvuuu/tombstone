@@ -15,7 +15,44 @@
 
 }
 
-.imageSize{
-    max-width: 100%;  
-    height: auto; 
+.img_size{
+    /* max-width: 100%;  
+    height: auto;  */
+    width:400px;
+    height:300px;
 }
+
+
+/* If screen size is more than 768px wide */
+@media screen and (max-width: 481px ) {
+    .img_size{
+        width:100px;
+        height:100px;
+    }
+    
+  }
+
+
+@media screen and  (max-width: 768px) and (min-width: 482px){
+    .img_size{
+        width:300px;
+        height:150px;
+    }
+    
+  }
+
+
+ /* If screen size is more than 1200px wide, */
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+    .img_size{
+        width:300px;
+        height:200px;
+    }
+  }
+
+
+
+   /* If screen size is more than 1750px wide, */
+@media screen and (min-width: 1750px) {
+   
+  }
