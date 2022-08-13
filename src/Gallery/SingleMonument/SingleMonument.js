@@ -8,10 +8,27 @@ import Navbarr from '../../NavBar/Navbarr';
 import Footer from '../../Footer/Footer';
 import Header from '../../Header/Header';
 import Paginations from '../../Paginations/Paginations';
-
+const axios = require('axios').default;
 
  //http://neptunian.github.io/react-photo-gallery/examples/basic-rows.html
 const SingleMonument = () => {
+
+  useEffect(()=>{
+    axios.get('/单人碑')
+  .then(function (response) {
+    console.log(response);
+  })
+  .catch(function (error) {
+    // handle error
+    console.log(error);
+  })
+  .then(function () {
+    // always executed
+  });
+  },[])
+
+  const [img, setImg] = useState([]);
+
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
 

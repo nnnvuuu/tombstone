@@ -15,10 +15,13 @@ import img14 from './photos/IMG_1260.JPG'
 import img15 from './photos/IMG_2731.JPG'
 import img16 from './photos/IMG_3022.JPG'
 import img17 from './photos/IMG_3085.JPG'
-
+import { useEffect } from 'react'
 import hihi9 from './photos/IMG_1260.JPG'
+const axios = require('axios').default;
 
 const srcSet = ["large.jpg 1024w,medium.jpg 640w,small.jpg 320w"];
+
+
 
 export const photos = [
     {

@@ -16,6 +16,7 @@ import {Provider} from 'react-redux';
 import store from './redux/store/store';
 import SingleMonument from '../src/Gallery/SingleMonument/SingleMonument';
 import i18n from './text/i18n';
+
 import {
   BrowserRouter,
   Routes,
@@ -30,9 +31,9 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage/>} /> 
           </Routes>
-          <Routes>
+          {/* <Routes>
             <Route path="/FlatMarkers" element={<FlatMarkers/>} /> 
-          </Routes>
+          </Routes> */}
 
           <Routes>
             <Route path="/SingleMonument" element={<SingleMonument/>} /> 
