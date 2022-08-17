@@ -3,7 +3,7 @@
     flex-direction: column;
      margin: auto;
      width: 70%;
-    height: 80em;
+    /* height: 80em; */
     gap: 20px;
 }
 
@@ -13,7 +13,7 @@
         flex-direction: column;
          margin: auto;
          width: 90%;
-        height: 80em;
+        /* height: 80em; */
         gap: 20px;
     }
 
@@ -26,7 +26,7 @@
         flex-direction: column;
          margin: auto;
          width: 90%;
-        height: 85em;
+        /* height: 85em; */
         gap: 20px;
     }
 
@@ -40,7 +40,7 @@
         flex-direction: column;
          margin: auto;
          width: 90%;
-        height: 95em;
+        /* height: 95em; */
         gap: 20px;
     }
 

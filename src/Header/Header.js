@@ -8,7 +8,7 @@ const Header = () => {
                  <h5 className='left_subtitle'>EST. 2003</h5>
                </div>
                <div className='header_inner_right_container'>
-                  <h1 className='header_title'>组约永龙石碑公司</h1>
+                  <h1 className='header_title'>纽约永龙石碑公司</h1>
                   <h5 className='right_subtitle'>New York Dragon Peace Enterprise Inc. (DPEINY)</h5>    
                 </div>
         </div>

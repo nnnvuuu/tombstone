@@ -11,27 +11,27 @@ const Information = () =>{
               <h1>{t("information.item1.item1")}</h1>
               <div className='phone_wrapper'>
                 <TelephoneFill className='phone_img'/>
-                <h5>{t("information.item1.subitem1")}</h5>
+                <p  style={{fontSize:"22px"}}>{t("information.item1.subitem1")}</p>
               </div>
               <a href="tel:+1-718-492-8959" className='remove_a_tag_css' ><p>718-492-8959</p></a>
               <a href="tel:+1-718-492-5111" className='remove_a_tag_css'> <p>718-492-5111</p> </a>
                 <div className='location_wrapper'>
                  <GeoAltFill className='location_img'/>
-                 <h5>{t("information.item1.subitem2")}</h5>
+                 <p  style={{fontSize:"22px"}}>{t("information.item1.subitem2")}</p>
                 </div>
                 <p>5008 4th Ave</p>
                 <p>Brooklyn NY, 11220</p>
                 <div className='email_wrapper'>
                  <EnvelopeFill className='email_img'/>
-                 <h5>{t("information.item1.subitem3")}</h5>
+                 <p  style={{fontSize:"22px"}}>{t("information.item1.subitem3")}</p>
                 </div>
                 <a href="mailto:dpeistone@gmail.com" className='remove_a_tag_css' ><p >dpeistone@gmail.com</p></a>
                 <a href="mailto:dpetrade@hotmail.com" className='remove_a_tag_css' ><p>dpetrade@hotmail.com</p></a>
                 <div className='wechat_wrapper'>
                  <img src = {WeChatImg} className='wechat_img'/>
-                 <h5>{t("information.item1.subitem4")}</h5>
+                 <p  style={{fontSize:"22px"}}>{t("information.item1.subitem4")}</p>
                 </div>
-                <p>@dpeiny</p>
+                <p >@dpeiny</p>
             </div>
 
      

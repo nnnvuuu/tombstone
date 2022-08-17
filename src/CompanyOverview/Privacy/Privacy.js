@@ -11,8 +11,12 @@ const Privacy = () => {
             <Navbar/>
             <div className='privacy_container'>
                 <div>
-                    <p>{t("Privacy.item1")}</p>
+                    <p style={{marginRight:"20px"}}>{t("Privacy.item1")}</p>
                     <p>{t("Privacy.item2")}</p>
+                    <p>{t("Privacy.item3")}</p>
+                    <p>{t("Privacy.item4")}</p>
+                    <p>{t("Privacy.item5")}</p>
+                
                 
                 </div>
             </div>

@@ -14,40 +14,40 @@ const ProductAndService = () => {
             <div style={{marginTop:"40px"}}> 
                 <div  className="ProductAndService_container">
                     <h1>{t("ProductAndService.title")}</h1>
-                    <p>{t("ProductAndService.summary1")}</p>
-                    <p>{t("ProductAndService.summary2")}</p>
-                    <h3>{t("ProductAndService.item1.item1")}</h3>
+                    <h4>{t("ProductAndService.summary1")}</h4>
+                    <h4>{t("ProductAndService.summary2")}</h4>
+                    <h4>{t("ProductAndService.item1.item1")}</h4>
                     <ul >
-                     <li>{t("ProductAndService.item1.subitem1")}</li>
-                     <li>{t("ProductAndService.item1.subitem2")}</li>
+                    <h4><li>{t("ProductAndService.item1.subitem1")}</li></h4>
+                    <h4><li>{t("ProductAndService.item1.subitem2")}</li></h4>
                   </ul>
-                  <h3>{t("ProductAndService.item2.item2")}</h3>
+                  <h4>{t("ProductAndService.item2.item2")}</h4>
                     <ul >
-                     <li>{t("ProductAndService.item2.subitem1")}</li>
-                     <li>{t("ProductAndService.item2.subitem2")}</li>
+                    <h4><li>{t("ProductAndService.item2.subitem1")}</li></h4>
+                    <h4><li>{t("ProductAndService.item2.subitem2")}</li></h4>
                   </ul>
-                  <h3>{t("ProductAndService.item3.item3")}</h3>
+                  <h4>{t("ProductAndService.item3.item3")}</h4>
                     <ul >
-                     <li>{t("ProductAndService.item3.subitem1")}</li>
-                     <li>{t("ProductAndService.item3.subitem2")}</li>
-                     <li>{t("ProductAndService.item3.subitem3")}</li>
+                    <h4><li>{t("ProductAndService.item3.subitem1")}</li></h4>
+                    <h4><li>{t("ProductAndService.item3.subitem2")}</li></h4>
+                    <h4><li>{t("ProductAndService.item3.subitem3")}</li></h4>
                   </ul>
-                  <h3>{t("ProductAndService.item4")}</h3>
-                  <h3>{t("ProductAndService.item5.item5")}</h3>
-                  <ul >
-                     <li><h5>{t("ProductAndService.item5.subitem1")}</h5></li>
+                  <h4>{t("ProductAndService.item4")}</h4>
+                  <h4>{t("ProductAndService.item5.item5")}</h4>
+                  <ul>
+                     <li><h4>{t("ProductAndService.item5.subitem1")}</h4></li>
                   </ul>
-                  <p>{t("ProductAndService.item5.subtext1")}</p>
+                  <h4>{t("ProductAndService.item5.subtext1")}</h4>
                   
                   <ul >
-                     <li><h5>{t("ProductAndService.item5.subitem2")}</h5></li>
+                     <li><h4>{t("ProductAndService.item5.subitem2")}</h4></li>
                   </ul>
-                  <p>{t("ProductAndService.item5.subtext2")}</p>
+                  <h4>{t("ProductAndService.item5.subtext2")}</h4>
 
                   <ul >
-                     <li><h5>{t("ProductAndService.item5.subitem3")}</h5></li>
+                     <li><h4>{t("ProductAndService.item5.subitem3")}</h4></li>
                   </ul>
-                  <p>{t("ProductAndService.item5.subtext3")}</p>
+                  <h4>{t("ProductAndService.item5.subtext3")}</h4>
                 </div>
             </div>
             <Footer/>

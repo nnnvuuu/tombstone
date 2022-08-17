@@ -59,26 +59,26 @@ const Navbarr = (props) => {
         <Navbar.Collapse  id="basic-navbar-nav"  >
           <Nav  className='m-auto ' >
         
-            <Nav.Link  as={NavLink} to= '/'  style={{fontSize:"25px",marginLeft:'50px'}}>{t('navbar.item1')}</Nav.Link>
-            <NavDropdown   style={{fontSize:"25px",marginLeft:'50px'}}title={t("navbar.item2.item2")} >
+            <Nav.Link  as={NavLink} to= '/'  style={{fontSize:"25px",marginLeft:'50px', letterSpacing:"3px"}}>{t('navbar.item1')}</Nav.Link>
+            <NavDropdown   style={{fontSize:"25px",marginLeft:'50px', letterSpacing:"3px"}}title={t("navbar.item2.item2")} >
 
 
               
-            <NavDropdown.Item  as={NavLink} to= '/FlatMarkers' style={{fontSize:"20px"}}>{t("navbar.item2.subitem1")}</NavDropdown.Item>
-              <NavDropdown.Item  as={NavLink} to= '/斜碑' style={{fontSize:"20px"}}>{t("navbar.item2.subitem2")} </NavDropdown.Item>
-              <NavDropdown.Item  as={NavLink} to= '/SingleMonument' style={{fontSize:"20px"}}>{t("navbar.item2.subitem3")}</NavDropdown.Item>
-              <NavDropdown.Item  as={NavLink} to= '/雙人碑' style={{fontSize:"20px"}}>{t("navbar.item2.subitem4")}</NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to= '/家族碑'  style={{fontSize:"20px"}}>{t("navbar.item2.subitem5")}</NavDropdown.Item>
-              <NavDropdown.Item  as={NavLink} to= '/牌坊'  style={{fontSize:"20px"}}>{t("navbar.item2.subitem6")}</NavDropdown.Item>
+            <NavDropdown.Item  as={NavLink} to= '/FlatMarkers' style={{fontSize:"20px", letterSpacing:"3px" }}>{t("navbar.item2.subitem1")}</NavDropdown.Item>
+              <NavDropdown.Item  as={NavLink} to= '/斜碑' style={{fontSize:"20px", letterSpacing:"3px"}}>{t("navbar.item2.subitem2")} </NavDropdown.Item>
+              <NavDropdown.Item  as={NavLink} to= '/SingleMonument' style={{fontSize:"20px", letterSpacing:"3px"}}>{t("navbar.item2.subitem3")}</NavDropdown.Item>
+              <NavDropdown.Item  as={NavLink} to= '/雙人碑' style={{fontSize:"20px", letterSpacing:"3px"}}>{t("navbar.item2.subitem4")}</NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to= '/家族碑'  style={{fontSize:"20px", letterSpacing:"3px"}}>{t("navbar.item2.subitem5")}</NavDropdown.Item>
+              <NavDropdown.Item  as={NavLink} to= '/牌坊'  style={{fontSize:"20px", letterSpacing:"3px"}}>{t("navbar.item2.subitem6")}</NavDropdown.Item>
 
             </NavDropdown>
         
-            <NavDropdown  style={{fontSize:"25px",marginLeft:'50px'}} title={t("navbar.item3.item3")} >
+            <NavDropdown  style={{fontSize:"25px",marginLeft:'50px', letterSpacing:"3px"}} title={t("navbar.item3.item3")} >
       
         <div>
           
-              <NavDropdown.Item href="#action/3.1" style={{fontSize:"20px"}}>{t("navbar.item3.subitem1")}</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2" style={{fontSize:"20px"}}> {t("navbar.item3.subitem2")}</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1" style={{fontSize:"20px", letterSpacing:"3px"}}>{t("navbar.item3.subitem1")}</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2" style={{fontSize:"20px", letterSpacing:"3px"}}> {t("navbar.item3.subitem2")}</NavDropdown.Item>
             
               </div>
       
@@ -86,46 +86,46 @@ const Navbarr = (props) => {
             </NavDropdown>
 
 
-            <NavDropdown  style={{fontSize:"25px",marginLeft:'50px'}} title={t("navbar.item4.item4")} >
+            <NavDropdown  style={{fontSize:"25px",marginLeft:'50px', letterSpacing:"3px"}} title={t("navbar.item4.item4")} >
          
             
             <div>
                
              
-              <NavDropdown.Item href="#action/3.2" style={{fontSize:"20px"}}>{t("navbar.item4.subitem1")}</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}}>{t("navbar.item4.subitem2")}</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}}>{t("navbar.item4.subitem3")}</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2" style={{fontSize:"20px", letterSpacing:"3px"}}>{t("navbar.item4.subitem1")}</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px", letterSpacing:"3px"}}>{t("navbar.item4.subitem2")}</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px", letterSpacing:"3px"}}>{t("navbar.item4.subitem3")}</NavDropdown.Item>
             
               </div>
          
             </NavDropdown>
 
 
-            <NavDropdown  style={{fontSize:"25px",marginLeft:'50px'}} title={t("navbar.item5.item5")} >
+            <NavDropdown  style={{fontSize:"25px",marginLeft:'50px', letterSpacing:"3px"}} title={t("navbar.item5.item5")} >
          
             
             <div>
                
-              <NavDropdown.Item href="#action/3.1" style={{fontSize:"20px"}} as={NavLink} to= '/About_us'>{t("navbar.item5.subitem1")}</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.1" style={{fontSize:"20px"}} as={NavLink} to= '/ProductAndService'>{t("navbar.item5.subitem2")}</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2" style={{fontSize:"20px"}} as={NavLink} to= '/HowToOrder'>{t("navbar.item5.subitem3")}</NavDropdown.Item>     
+              <NavDropdown.Item href="#action/3.1" style={{fontSize:"20px", letterSpacing:"3px"}} as={NavLink} to= '/About_us'>{t("navbar.item5.subitem1")}</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1" style={{fontSize:"20px", letterSpacing:"3px"}} as={NavLink} to= '/ProductAndService'>{t("navbar.item5.subitem2")}</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2" style={{fontSize:"20px", letterSpacing:"3px"}} as={NavLink} to= '/HowToOrder'>{t("navbar.item5.subitem3")}</NavDropdown.Item>     
               {/* <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}} as={NavLink} to= '/FAQ'>{t("navbar.item5.subitem4")}</NavDropdown.Item> */}
               {/* <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}} as={NavLink} to= '/FAQ' state={{ isclicked }}>{t("navbar.item5.subitem4")}</NavDropdown.Item> */}
               {
                 
-                i18n.language == "en"? <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}} as={NavLink} to= '/FAQ_en'>{t("navbar.item5.subitem4")}</NavDropdown.Item> 
-                 :<NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}} as={NavLink} to= '/FAQ'>{t("navbar.item5.subitem4")}</NavDropdown.Item>
+                i18n.language == "en"? <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px", letterSpacing:"3px"}} as={NavLink} to= '/FAQ_en'>{t("navbar.item5.subitem4")}</NavDropdown.Item> 
+                 :<NavDropdown.Item href="#action/3.3" style={{fontSize:"20px", letterSpacing:"3px"}} as={NavLink} to= '/FAQ'>{t("navbar.item5.subitem4")}</NavDropdown.Item>
               }
              
 
-              <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}} as={NavLink} to= '/Privacy'>{t("navbar.item5.subitem5")}</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px", letterSpacing:"3px"}} as={NavLink} to= '/Privacy'>{t("navbar.item5.subitem5")}</NavDropdown.Item>
             
               </div>
          
             </NavDropdown>
 
 
-            <Nav.Link href="#home"  style={{fontSize:"25px",marginLeft:'50px'}} as={NavLink} to= '/ContactUs'>{t("navbar.item6")} </Nav.Link>
+            <Nav.Link href="#home"  style={{fontSize:"25px",marginLeft:'50px', letterSpacing:"3px"}} as={NavLink} to= '/ContactUs'>{t("navbar.item6")} </Nav.Link>
 
 
        
