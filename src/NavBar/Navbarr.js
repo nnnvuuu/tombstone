@@ -59,8 +59,8 @@ const Navbarr = (props) => {
         <Navbar.Collapse  id="basic-navbar-nav"  >
           <Nav  className='m-auto ' >
         
-            <Nav.Link  as={NavLink} to= '/'  style={{fontSize:"25px",marginLeft:'50px', letterSpacing:"3px"}}>{t('navbar.item1')}</Nav.Link>
-            <NavDropdown   style={{fontSize:"25px",marginLeft:'50px',letterSpacing:"3px"}}title={t("navbar.item2.item2")} >
+            <Nav.Link  as={NavLink} to= '/'  style={{fontSize:"25px",marginLeft:'50px', letterSpacing:"2px"}}>{t('navbar.item1')}</Nav.Link>
+            <NavDropdown   style={{fontSize:"25px",marginLeft:'50px',letterSpacing:"2px"}}title={t("navbar.item2.item2")} >
 
 
               
@@ -73,7 +73,7 @@ const Navbarr = (props) => {
 
             </NavDropdown>
         
-            <NavDropdown  style={{fontSize:"25px",marginLeft:'50px', letterSpacing:"3px"}} title={t("navbar.item3.item3")} >
+            <NavDropdown  style={{fontSize:"25px",marginLeft:'50px', letterSpacing:"2px"}} title={t("navbar.item3.item3")} >
       
         <div>
           
@@ -86,7 +86,7 @@ const Navbarr = (props) => {
             </NavDropdown>
 
 
-            <NavDropdown  style={{fontSize:"25px",marginLeft:'50px', letterSpacing:"3px"}} title={t("navbar.item4.item4")} >
+            <NavDropdown  style={{fontSize:"25px",marginLeft:'50px', letterSpacing:"2px"}} title={t("navbar.item4.item4")} >
          
             
             <div>
@@ -101,7 +101,7 @@ const Navbarr = (props) => {
             </NavDropdown>
 
 
-            <NavDropdown  style={{fontSize:"25px",marginLeft:'50px', letterSpacing:"3px"}} title={t("navbar.item5.item5")} >
+            <NavDropdown  style={{fontSize:"25px",marginLeft:'50px', letterSpacing:"2px"}} title={t("navbar.item5.item5")} >
          
             
             <div>
@@ -118,18 +118,18 @@ const Navbarr = (props) => {
               }
              
 
-              <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}} as={NavLink} to= '/Privacy'>{t("navbar.item5.subitem5")}</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px", letterSpacing:"2px"}} as={NavLink} to= '/Privacy'>{t("navbar.item5.subitem5")}</NavDropdown.Item>
             
               </div>
          
             </NavDropdown>
 
 
-            <Nav.Link href="#home"  style={{fontSize:"25px",marginLeft:'50px'}} as={NavLink} to= '/ContactUs'>{t("navbar.item6")} </Nav.Link>
+            <Nav.Link href="#home"  style={{fontSize:"25px",marginLeft:'50px', letterSpacing:"2px"}} as={NavLink} to= '/ContactUs'>{t("navbar.item6")} </Nav.Link>
 
 
        
-            <Nav.Link  onClick={() => handleClick(location)} style={{fontSize:"25px",marginLeft:'50px'}}>{t("navbar.item7")} </Nav.Link>
+            <Nav.Link  onClick={() => handleClick(location)} style={{fontSize:"25px",marginLeft:'50px', letterSpacing:"2px"}}>{t("navbar.item7")} </Nav.Link>
 
 
           </Nav>
