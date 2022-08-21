@@ -37,17 +37,17 @@ const ProductAndService = () => {
                   <ul>
                      <li><h4>{t("ProductAndService.item5.subitem1")}</h4></li>
                   </ul>
-                  <h4>{t("ProductAndService.item5.subtext1")}</h4>
+                  <h5>{t("ProductAndService.item5.subtext1")}</h5>
                   
                   <ul >
                      <li><h4>{t("ProductAndService.item5.subitem2")}</h4></li>
                   </ul>
-                  <h4>{t("ProductAndService.item5.subtext2")}</h4>
+                  <h5>{t("ProductAndService.item5.subtext2")}</h5>
 
                   <ul >
                      <li><h4>{t("ProductAndService.item5.subitem3")}</h4></li>
                   </ul>
-                  <h4>{t("ProductAndService.item5.subtext3")}</h4>
+                  <h5>{t("ProductAndService.item5.subtext3")}</h5>
                 </div>
             </div>
             <Footer/>
