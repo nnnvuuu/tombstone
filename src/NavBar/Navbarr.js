@@ -53,7 +53,7 @@ const Navbarr = (props) => {
   return (
     <div >
       {/* bg="light" */}
-         <Navbar sticky='top'  className='py-4' expand="xl" >
+         <Navbar sticky='top'  expand="xl" >
       <Container >
         <Navbar.Toggle className='m-auto'aria-controls="basic-navbar-nav" />
         <Navbar.Collapse  id="basic-navbar-nav"  >
