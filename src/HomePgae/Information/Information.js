@@ -8,7 +8,7 @@ const Information = () =>{
     return(
         <div className="information-container">
             <div className="information-inner-left-container">
-              <h1>{t("information.item1.item1")}</h1>
+              <h1 className='information_title'>{t("information.item1.item1")}</h1>
               <div className='phone_wrapper'>
                 <TelephoneFill className='phone_img'/>
                 <p  style={{fontSize:"22px"}}>{t("information.item1.subitem1")}</p>
@@ -76,7 +76,7 @@ const Information = () =>{
 
 
           <div className="information-inner-right-container">
-              <h1>{t("information.item2.item2")}</h1>
+              <h1 className='information_title'>{t("information.item2.item2")}</h1>
 
               {/* <div className='inner_wrapper'> */}
 
@@ -84,7 +84,7 @@ const Information = () =>{
  
               <table className='table_container'>
                 <tr >
-                  <td><p style={{fontSize:"22px"}}>{t("information.item2.subitem1")}</p></td>
+                  <td><p style={{fontSize:"22px"}} >{t("information.item2.subitem1")}</p></td>
                   <td><p style={{marginLeft:"30px"}}>10:00AM – 6:00PM</p></td>
                 </tr>
                 <tr>
