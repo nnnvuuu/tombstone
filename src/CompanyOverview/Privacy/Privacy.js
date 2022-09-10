@@ -12,8 +12,8 @@ const Privacy = () => {
             <Navbar/>
             <div className='privacy_container'>
                 <div>
-                    <p className='privacy_text'>{t("Privacy.item1")}</p>
-                    <p className='privacy_text'>{t("Privacy.item2")}</p>
+                    <h5 className='privacy_text'>{t("Privacy.item1")}</h5>
+                    <h5 className='privacy_text'>{t("Privacy.item2")}</h5>
                 
                 
                 

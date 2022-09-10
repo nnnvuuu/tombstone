@@ -3,8 +3,9 @@ import AboutUsImage from './DPEI.png';
 import Navbar from '../../NavBar/Navbarr';
 import Header from '../../Header/Header';
 import Footer from '../../Footer/Footer';
-
+import { useTranslation } from "react-i18next";
 const AboutUs = () =>{
+    const { t } = useTranslation();
     return(
         <>
         <Header/>
@@ -18,12 +19,13 @@ const AboutUs = () =>{
                 </div>
 
                 <div className='AboutUs_upper_right_container'>
-                    <h2 className='AboutUs_upper_right_title'>About us</h2>
-                    <h4 className='AboutUs_upper_right_subTitle1'>Yonglong Stone Stele
-                        <h4 className='AboutUs_upper_right_subTitle2'>Company Profile</h4>
+                    <h2 className='AboutUs_upper_right_title'>{t("AboutUs.title")}</h2>
+                    <h4 className='AboutUs_upper_right_subTitle1'>{t("AboutUs.item1.item1")}
+                        <h4 className='AboutUs_upper_right_subTitle2'>{t("AboutUs.item1.item2")}</h4>
                         <hr className='AboutUs_line'/>
                     </h4>   
-                    <p className='AboutUs_upper_right_text'>Yonglong Stone Tablet Company is a professional company that manufactures tombstones. Founded in New York in 2000, the factory is located in mainland China. After ten years of cold and summer, Yonglong Stone Tablet Company has sharpened its sword for ten years. Now Yonglong Stone Tablet Factory is a large tombstone factory with 50,000 square feet of modern workshops and advanced industrial equipment. Conventional tombstones, family monuments, clan arches, stone houses, and stone statues designed and produced by Yonglong have spread to more than 50 cemeteries in the eastern United States</p>
+                    <p className='AboutUs_upper_right_text'>{t("AboutUs.item2.item2")}</p>
+                    <p className='AboutUs_upper_right_text'>{t("AboutUs.item2.subitem1")}</p>
                 </div>
 
             </div>

@@ -189,7 +189,19 @@
                 "subtext3":"說明：雖然墓碑的噸位大，運輸不方便，但是永龍墓碑廠的產品和服務， 可以涵蓋美東大部份的地區。歡迎華裔家人上網查詢。"
             }
            
-            }
+            },
+
+            "AboutUs":{
+                "title":"About us",
+                "item1":{
+                    "item1":"Yonglong Stone Stele",
+                    "item2":"Company Profile"
+                },
+                "item2":{
+                    "item2":"Yonglong Stone Tablet Company is a professional company that manufactures tombstones. Founded in New York in 2000, the factory is located in mainland China. After ten years of cold and summer, Yonglong Stone Tablet Company has sharpened its sword for ten years. Now Yonglong Stone Tablet Factory is a large tombstone factory with 50,000 square feet of modern workshops and advanced industrial equipment. Conventional tombstones, family monuments, clan arches, stone houses, and stone statues designed and produced by Yonglong have spread to more than 50 cemeteries in the eastern United States",
+                    "subitem1":""
+                }
+                }
 
 
 

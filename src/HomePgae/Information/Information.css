@@ -12,7 +12,7 @@
 .information_title{
     color: #0D2761;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
 .information-inner-left-container{
@@ -27,9 +27,10 @@
 }
 
 .table_container{
+ 
     border-collapse: separate;
-    border-spacing: 0 1.5em;
-
+    /* border-spacing: 0 1.5em; */
+    border-spacing: 0 1.4em;
 }
 
 
@@ -43,7 +44,7 @@
 
 
 .phone_img{
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 
@@ -56,7 +57,7 @@
 }
 
 .location_img{
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 
@@ -70,7 +71,7 @@
 
 
 .email_img{
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 
